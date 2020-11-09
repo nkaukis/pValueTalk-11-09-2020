@@ -1,0 +1,17 @@
+---
+title: "'Moving beyond $p < 0.05$': What should we actually do?"
+author: Nicholas Kaukis
+output: pdf_document
+bibliography: citations.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Abstract
+
+The ASA published a statement [@wasserstein_asa_2016] on the misuse of $p$-values. The article summarized the common misconceptions and misinterpretations of $p$-values as well as a discussion on "statistical" significance versus "scientific" significance. A 2019 supplement issue of *The American Statistician* was dedicated to addressing problems with how $p$-values are used. The main focus was how researchers can better use $p$-values, modify them, or completely replace them. The publication leads with the article and theme of *Moving to a World Beyond “$p < 0.05$”* [@wasserstein_moving_2019]. There were 43 articles in the supplement issue which provide many different viewpoints and methodologies with regards to what can be done about issues with $p$-values, and Null Hypothesis Significance Testing (NHST) in general. While it may be beneficial to consider all possible options, this leaves statisticians and researchers without a unified approach on how to use statistical inference in the applied research setting. Additionally, with so many potential possibilities it is difficult to disentangle which method or methods are appropriate alternatives to classical inference. In this presentation, a selection of proposed alternatives to the idea of “$p < 0.05$” and NHST will be discussed. The methods will be compared and contrasted based on their utility, interpretability, and complexity.
+
+# References
+
